@@ -1,70 +1,94 @@
 
 
 @font-face {
-  font-family: "IBMPlexSans"; /* <== On donne un nom unique */
-  src:
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.eot") format("embedded-opentype"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.woff") format("woff"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.woff2") format("woff2"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.ttf") format("truetype"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.svg") format("svg"); /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-  font-weight: normal; /* <== On définit le poids de la police */
-  font-style: normal; /* <== On définit le style de la police */
-  font-display: swap; /* <== On spécifie le comportement d'affichage de la police. Ca indique que le navigateur doit afficher une police de secours immédiatement, puis charger la police personnalisée en arrière-plan. */
+    font-family: 'Stratos Deliveroo Web';
+    src: url('./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.eot');
+    src: url('./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.woff') format('woff'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.ttf') format('truetype'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.svg#StratosDeliverooWeb-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "IBMPlexSans-Bold"; /* <== On donne un nom unique */
-  src:
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.eot") format("embedded-opentype"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.woff") format("woff"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.woff2") format("woff2"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.ttf") format("truetype"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.svg") format("svg"); /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-  font-weight: normal; /* <== On définit le poids de la police */
-  font-style: normal; /* <== On définit le style de la police */
-  font-display: swap; /* <== On spécifie le comportement d'affichage de la police. Ca indique que le navigateur doit afficher une police de secours immédiatement, puis charger la police personnalisée en arrière-plan. */
+    font-family: 'IBM Plex Sans';
+    src: url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.eot');
+    src: url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.woff2') format('woff2'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.woff') format('woff'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.ttf') format('truetype'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans-Bold.svg#IBMPlexSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "StratosDeliverooWeb-SemiBold"; /* <== On donne un nom unique */
-  src:
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.eot") format("embedded-opentype"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.woff") format("woff"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.woff2") format("woff2"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.ttf") format("truetype"), /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-    url("./assets/fonts/deliveroo-fonts_dfnsdf/StratosDeliverooWeb-SemiBold.svg") format("svg"); /* <== On donne l'emplacement du fichier de police et on précise le format pour être sûr que le navigateur ne se trompe pas en le devinant à partir de l'extension du fichier */
-  font-weight: normal; /* <== On définit le poids de la police */
-  font-style: normal; /* <== On définit le style de la police */
-  font-display: swap; /* <== On spécifie le comportement d'affichage de la police. Ca indique que le navigateur doit afficher une police de secours immédiatement, puis charger la police personnalisée en arrière-plan. */
+    font-family: 'IBM Plex Sans';
+    src: url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.eot');
+    src: url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.woff2') format('woff2'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.woff') format('woff'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.ttf') format('truetype'),
+        url('./assets/fonts/deliveroo-fonts_dfnsdf/IBMPlexSans.svg#IBMPlexSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 
-* {
-font-family: 'IBMPlexSans';
+body {
+font-family: 'IBM Plex Sans';
 font-weight: normal;
 font-style: normal;
 }
 
+nav {
+  height: 59px;
+  border-bottom: 1px solid #F3F5F5;
+  border-top: 1px solid #F3F5F5;
+
+}
+
+header {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 248px;
+  overflow: hidden;
+}
+
+main {
+  background-color: #F3F5F5;
+}
+
+section:not(:first-child) {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
 
 h1 {
-  font-size: 150px;
+  font-size: 32px;
   font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  font-family: 'IBMPlexSans';
-
-  font-size: 50px;
+font-weight: bolder;
+  font-size: 24px;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 30px;
-  margin-top: 15px;
+  color: #2E3333;
+  font-size: 18px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -75,18 +99,81 @@ h4 {
 }
 
 .wrapper {
-  width:90vw;
-  margin-left: auto ;
-  padding: 40px 40px;
+  width:76vw;
+  margin: 0 auto;
+  padding: 2px 40px;
+  /* border: 1px solid cyan; */
+  display: flex;
+  justify-content: flex-start;
+  gap:10px
 }
 
+
+.restaurantDescription {
+font-family: 'IBM Plex Sans';
+font-weight: normal;
+color:#808484;
+font-size: 19px;
+line-height: 1.2em;
+}
+
+/* header {
+  border:1px solid red;
+  width:90vw;
+  margin-left: auto ;
+  padding: 2px 40px;
+  display: flex;
+  flex-direction: row;
+} */
+
+.mainContent {
+  width:70%;
+  /* border: 1px solid green; */
+}
+
+.rightContent {
+  width:30%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .mealContainer{
-width: 600px;
-background-color: lightgray;
+  display: flex;
+  gap:10px;
+padding: 15px;
+width: 40%;
+background-color: white;
 border-radius: 10px}
 
-.imgRestaurant, .imgMeal{
+.mealDescription, .price{
+margin-top: 15px;
+margin-bottom: 15px;
+height: 2em;
+overflow: hidden;
+color: #808484;
+border-radius: 0px}
+
+
+.price{
+font-size: larger;}
+
+.imgRestaurant {
+margin: 30px 5px;
+height : 180px;
+width: 100%;
+border-radius: 10px;
+object-fit: cover }
+
+.imgMeal{
 width: 130px;
 height : 130px;
 border-radius: 10px;
+object-fit: cover }
+
+
+.imgLogo {
+height : 56px;
 object-fit: cover }
