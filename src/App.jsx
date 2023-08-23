@@ -6,9 +6,9 @@ import logoDeliveroo from "./assets/images/logoDeliveroo.png"
 const computeSubPrice = (articles)=>{
   let sum=0
   for (const article of articles) {
-    sum+=article.quantity*article.meal.price
+    sum+=Number(article.quantity)*Number(article.meal.price)
   }
-  return sum
+  return sum.toFixed(2);
 }
 
 const deliveryPrice=2.5
@@ -150,7 +150,7 @@ function App() {
               Frais de livraison : {deliveryPrice} €
             </div>
             <div>
-              Total : {computeSubPrice(articles)===0? 0 : computeSubPrice(articles) + deliveryPrice} €
+              Total : {computeSubPrice(articles)===0? 0 : Number(Number(computeSubPrice(articles)) + Number(deliveryPrice)).toFixed(2)} €
             </div>
           </div>
         </div>
